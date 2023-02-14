@@ -1,0 +1,21 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+a, a:hover {
+    position: relative;
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style: none;
+}

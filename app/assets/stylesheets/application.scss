@@ -1,9 +1,4 @@
-// Abstract & Config
-@import 'abstract/color';
-@import 'abstract/typography';
-
-// Components
+@import 'abstract/index';
 @import 'components/index';
-
-// Pages
+@import 'layouts/index';
 @import 'pages/index';
