@@ -1,9 +1,12 @@
-<div class="center">
-  <h1>Benvenuto!</h1>
-  <p>Cosa vuoi fare?</p>
+<div class="homeScreen bigTopMargin center">
+  <div>
+    <h1>Benvenuto!</h1>
+    <p>Cosa vuoi fare?</p>
+  </div>
 
   <div>
-    <%= link_to "#", "Prenota il tavolo" %>
-    <%= link_to "#", "Prenota la cena" %>
+    <%= link_to "Prenota il tavolo", "#", class: "titleLink blockLink" %>
+    <div class="spacerFour"></div>
+    <%= link_to "Prenota la cena", "#", class: "titleLink blockLink" %>
   </div>
 </div>
