@@ -1,4 +1,4 @@
-<div class="homeScreen bigTopMargin center">
+<div id="home" class="homeScreen bigTopMargin center">
   <div>
     <h1>Benvenuto!</h1>
     <p>Cosa vuoi fare?</p>
@@ -7,6 +7,6 @@
   <div>
     <%= link_to "Prenota il tavolo", "#", class: "titleLink blockLink" %>
     <div class="spacerFour"></div>
-    <%= link_to "Prenota la cena", "#", class: "titleLink blockLink" %>
+    <%= link_to "Prenota la cena", dinner_path, class: "titleLink blockLink" %>
   </div>
 </div>
