@@ -1,7 +1,12 @@
-<div id="dinner">
-  <h1>Prenotazione:</h1>
-
-  <div style="display: flex;">
+<div id="dinner" class="dinnerWrapper bigTopMargin center">
+  <div>
+    <h1>Il tuo codice prenotazione</h1>
+    <%# <p>Inserisci il codice prenotazione</p> %>
+  </div>
+    <%= form_with url: dishes_path do |f| %>
+      <%= f.text_field :booking_code %>
+    <% end %>
+  <div class="dinnerBottom">
     <p class="infoText">Oppure scansiona il QR Code che trovi sull'email di conferma</p>
     <i class="fa-solid fa-qrcode mainIcon bigIcon"></i>
   </div>
