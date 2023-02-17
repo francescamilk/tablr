@@ -1,5 +1,5 @@
 class Dish < ApplicationRecord
-  CATEGORIES = ["antipasti", "primi piatti", "secondi", "contorni", "dolci", "bevande"]
+  CATEGORIES = ["antipasti", "primi", "secondi", "contorni", "dolci", "bevande"]
 
   has_many  :order_dishes
 
