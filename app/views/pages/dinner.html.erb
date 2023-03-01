@@ -2,7 +2,7 @@
   <div>
     <h1>Il tuo codice prenotazione</h1>
   </div>
-    <%= form_with url: dishes_path do |f| %>
+    <%= form_with url: dishes_path, method: :get do |f| %>
       <%= f.text_field :booking_code %>
     <% end %>
   <div class="dinnerBottom">
